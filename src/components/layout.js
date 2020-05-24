@@ -10,7 +10,12 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+/** 
+ * @jsx jsx  - referenced by "sx".
+ * Controls the apps theme colors.
+ * See ../gatsby-plugin-theme-ui/index.js
+ */
+import { jsx } from "theme-ui"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,7 +29,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div
+      style={{
+        position: 'relative',
+        minHeight: '100vh',
+      }}
+    >
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -34,13 +44,24 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
-    </>
+      <footer
+        sx={{
+          bottom: "0",
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "10px 20px",
+          position: "absolute",
+          width: "100%",
+          backgroundColor: "primary",
+          color: "bodyText",
+        }}
+      >
+        <span>Wellsville, Kansas</span>
+        <span>(913)238-0876</span>
+        <span>ruralwater6@gmail.com</span>
+      </footer>
+    </div>
   )
 }
 

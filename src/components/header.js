@@ -1,26 +1,31 @@
 import { Link } from "gatsby"
+/** 
+ * @jsx jsx  - referenced by "sx".
+ * Controls the apps theme colors.
+ * See ../gatsby-plugin-theme-ui/index.js
+ */
+import { jsx } from "theme-ui"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+    sx={{
+      backgroundColor: "primary",
     }}
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+      sx={{
+        margin: "0 auto",
+        padding: "1.5rem 1.0rem",
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
-          style={{
-            color: `white`,
+          sx={{
+            color: "headerText",
+            fontSize: 48,
             textDecoration: `none`,
           }}
         >

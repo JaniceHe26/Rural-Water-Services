@@ -1,0 +1,13 @@
+.aboutTitle {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutDiv {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}

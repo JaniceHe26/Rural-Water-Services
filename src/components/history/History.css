@@ -1,0 +1,21 @@
+.historyTitle {
+  font-size: 48px;
+  padding-left: 100px;
+}
+
+.historyDiv {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.historyImg {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: 25px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About(){
+function About(){
   return (
     <React.Fragment>
       <h4 className="aboutTitle">About</h4>
@@ -23,3 +23,5 @@ export default function About(){
     </React.Fragment>
   )
 }
+
+export default About;

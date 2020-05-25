@@ -7,7 +7,7 @@ function About(){
       <h4 className="aboutTitle">About</h4>
 
       <div className="aboutDiv">
-        <img className="aboutImg" src="" alt="" title=""></img>
+        <img className="aboutImg" src="https://images.unsplash.com/photo-1584223761237-6f4effc4c0e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="Rural Water Services" title="Rural Water"></img>
         <p className="aboutText">"Sed ut perspiciatis unde omnis iste
         natus error sit voluptatem accusantium doloremque laudantium, 
         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis

@@ -1,0 +1,31 @@
+.ButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.ButtonContainer .Button {
+  color: rgb(64, 185, 165);
+  border-color: rgb(64, 185, 165);
+}
+
+.HeaderContainer {
+  align-items: center;
+  background-color: rgb(58, 57, 57);
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.Logo {
+  height: 100%;
+  width: 100%;
+}
+
+.LogoContainer {
+  height: 60px;
+  width: 80px;
+}

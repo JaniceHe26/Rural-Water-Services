@@ -1,18 +1,18 @@
+import Button from "react-bootstrap/Button";
+import Logo from "../../shared/images/blue-circle.png";
 import React from 'react';
 import './Header.css';
 
-const logoLocation = "../../shared/images/blue-circle.png";
-
 function Header() {
   return (
-    <div class="Header-container">
-      <div class="Logo-container">
-        <img src={logoLocation} alt="Rural Water Services logo" class="Logo" />
+    <div className="HeaderContainer">
+      <div className="LogoContainer">
+        <img src={Logo} alt="Rural Water Services logo" className="Logo" />
       </div>
-      <div class="Button-container">
-        <button>Services</button>
-        <button>About</button>
-        <button>History</button>
+      <div className="ButtonContainer">
+        <Button variant="outline-primary" className="Button">Services</Button>
+        <Button variant="outline-primary" className="Button">About</Button>
+        <Button variant="outline-primary" className="Button">History</Button>
       </div>
     </div>
   )

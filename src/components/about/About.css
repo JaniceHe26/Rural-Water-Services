@@ -2,12 +2,26 @@
   text-align: center;
   width: 100%;
   margin: 0 auto;
+  margin-top: 25px;
+  font-size: 48px;
+}
+
+.aboutImg {
+  width: 400px;
+  height: 400px;
+  margin-right: 25px;
 }
 
 .aboutDiv {
+  margin-top: 25px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   margin-left: 100px;
   margin-right: 100px;
+  align-items: center;
+}
+
+.aboutText {
+  width: 650px;
 }

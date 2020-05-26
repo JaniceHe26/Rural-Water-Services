@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/about/About';
 import Header from './components/header/Header';
+import History from './components/history/History';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Header />
       </header>
       <About />
+      <History />
     </div>
   );
 }

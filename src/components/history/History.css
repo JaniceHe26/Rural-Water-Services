@@ -1,6 +1,6 @@
 .historyTitle {
   font-size: 48px;
-  padding-left: 100px;
+  padding-left: 290px;
 }
 
 .historyDiv {
@@ -18,4 +18,25 @@
   width: 400px;
   height: 400px;
   margin-left: 25px;
+}
+
+.historyText {
+  width: 650px;
+}
+
+.historyTxtCont {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.historyImg2 {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-right: 25px;
 }

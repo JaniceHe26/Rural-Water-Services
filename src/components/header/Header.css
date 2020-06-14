@@ -1,7 +1,9 @@
+@import '../../shared/css/sizes.css';
+
 .ButtonContainer {
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: var(--size-350);
 }
 
 .ButtonContainer .Button {
@@ -9,14 +11,25 @@
   border-color: rgb(64, 185, 165);
 }
 
+.CompanyLogoContainer {
+  display: inline-flex;
+}
+
+.CompanyLogoTitle {
+  line-height: var(--size-60);
+  color: white;
+  font-size: var(--size-30);
+  margin-left: var(--size-30);
+}
+
 .HeaderContainer {
   align-items: center;
   background-color: rgb(58, 57, 57);
   display: flex;
   flex-direction: row;
-  height: 100px;
+  height: var(--size-100);
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 var(--size-50);
   width: 100%;
 }
 
@@ -25,7 +38,7 @@
   width: 100%;
 }
 
-.LogoContainer {
-  height: 60px;
-  width: 80px;
+.LogoImgContainer {
+  height: var(--size-60);
+  width: var(--size-80);
 }

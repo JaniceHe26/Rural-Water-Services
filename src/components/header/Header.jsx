@@ -6,8 +6,11 @@ import './Header.css';
 function Header() {
   return (
     <div className="HeaderContainer">
-      <div className="LogoContainer">
-        <img src={Logo} alt="Rural Water Services logo" className="Logo" />
+      <div className="CompanyLogoContainer">
+        <div className="LogoImgContainer">
+          <img src={Logo} alt="Rural Water Services logo" className="Logo" />
+        </div>
+        <div className="CompanyLogoTitle">Rural Water Services</div>
       </div>
       <div className="ButtonContainer">
         <Button variant="outline-primary" className="Button">Services</Button>

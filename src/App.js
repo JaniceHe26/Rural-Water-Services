@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from './components/menu/Menu';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import History from './components/history/History';
@@ -12,6 +13,8 @@ function App() {
         <Header />
       </header>
       <body className="BodyContent">
+        <Menu />
+        <Divider />
         <About />
         <Divider />
         <History />

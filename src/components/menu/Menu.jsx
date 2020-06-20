@@ -48,9 +48,9 @@ class Menu extends React.Component {
     const body = (
       <React.Fragment>
         <div className="ServicesTitle">
-          <h4 onClick={this.handleWater}>Water</h4>
-          <h4 onClick={this.handleGround}>Ground</h4>
-          <h4 onClick={this.handleOther}>Others</h4>
+          <h4 className={this.state.water ? "active-menu" : "ServiceName"} onClick={this.handleWater}>Water</h4>
+          <h4 className={this.state.ground ? "active-menu" : "ServiceName"} onClick={this.handleGround}>Ground</h4>
+          <h4 className={this.state.other ? "active-menu" : "ServiceName"} onClick={this.handleOther}>Others</h4>
         </div>
 
         {this.state.water && (

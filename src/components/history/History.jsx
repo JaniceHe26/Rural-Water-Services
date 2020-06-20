@@ -19,7 +19,7 @@ var body = (
       velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
       <img className="historyImg" src="https://images.unsplash.com/photo-1584223761237-6f4effc4c0e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="Rural Water Services" title="Rural Water"></img>
     </div>
-    <div className="historyTxtCont">
+    <div className="historyDiv">
       <img className="historyImg2" src="https://images.unsplash.com/photo-1584223761237-6f4effc4c0e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="Rural Water Services" title="Rural Water"></img>
       <p className="historyText">"Sed ut perspiciatis unde omnis iste
       natus error sit voluptatem accusantium doloremque laudantium,

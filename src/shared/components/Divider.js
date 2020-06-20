@@ -3,7 +3,7 @@ import "./Divider.css"
 
 function Divider() {
   return(
-    <div className="Divider">{this.props.divider}</div>
+    <div className="Divider" />
   )
 }
 

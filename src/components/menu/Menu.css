@@ -1,0 +1,12 @@
+.ServicesHeading {
+  text-align: center;
+
+}
+
+.ServicesTitle {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 20px;
+}

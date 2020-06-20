@@ -1,6 +1,6 @@
 // History Component.
 import React from 'react';
-import Section from '../../shared/components/Section';
+import Section from '../../shared/components/Section/Section';
 import './History.css';
 
 var body = (

@@ -1,0 +1,19 @@
+@import '../../css/theme.css';
+
+#secondaryButton.Button {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+}
+
+#secondaryButton.Button:hover,
+#secondaryButton.Button:focus,
+#secondaryButton.Button:active {
+  background-color: var(--secondary-color-dark);
+  border-color: var(--secondary-color-dark);
+  color: var(--secondary-text-color);
+}
+
+#secondaryButton.Button:focus {
+  box-shadow: 0 0 0 0.2rem var(--secondary-color-light);
+}

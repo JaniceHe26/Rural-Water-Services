@@ -1,14 +1,10 @@
 @import '../../shared/css/sizes.css';
+@import '../../shared/css/theme.css';
 
 .ButtonContainer {
   display: flex;
   justify-content: space-between;
   width: var(--size-350);
-}
-
-.ButtonContainer .Button {
-  color: rgb(64, 185, 165);
-  border-color: rgb(64, 185, 165);
 }
 
 .CompanyLogoContainer {
@@ -24,7 +20,8 @@
 
 .HeaderContainer {
   align-items: center;
-  background-color: rgb(58, 57, 57);
+  background-color: var(--primary-color-dark);
+  color: var(--primary-text-color);
   display: flex;
   flex-direction: row;
   height: var(--size-100);

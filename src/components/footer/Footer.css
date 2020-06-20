@@ -1,0 +1,11 @@
+@import '../../shared/css/sizes.css';
+@import '../../shared/css/theme.css';
+
+.FooterContainer {
+  align-items: center;
+  color: var(--secondary-text-color);
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary-color-light);
+  line-height: var(--size-48);
+}

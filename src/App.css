@@ -1,3 +1,9 @@
+@import './shared/css/theme.css';
+
 .BodyContent {
   padding: 0 10%;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  height: 100%;
+  overflow: auto;
 }

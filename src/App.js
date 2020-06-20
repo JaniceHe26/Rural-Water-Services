@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import History from './components/history/History';
+import Divider from '../src/shared/components/Divider';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </header>
       <body className="BodyContent">
         <About />
+        <Divider />
         <History />
       </body>
     </div>

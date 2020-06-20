@@ -1,0 +1,10 @@
+@import '../css/sizes.css';
+
+.SectionContainer {
+  display: flex;
+  padding: 5% 10% 0 10%;
+}
+
+.Title {
+  font-size: var(--size-48);
+}

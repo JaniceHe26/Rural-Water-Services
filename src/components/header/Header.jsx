@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import SecondaryButton from "../../shared/components/button/SecondaryButton";
 import Logo from "../../shared/images/blue-circle.png";
 import React from 'react';
 import './Header.css';
@@ -13,9 +13,9 @@ function Header() {
         <div className="CompanyLogoTitle">Rural Water Services</div>
       </div>
       <div className="ButtonContainer">
-        <Button variant="outline-primary" className="Button">Services</Button>
-        <Button variant="outline-primary" className="Button">About</Button>
-        <Button variant="outline-primary" className="Button">History</Button>
+        <SecondaryButton text="Services" />
+        <SecondaryButton text="About" />
+        <SecondaryButton text="History" />
       </div>
     </div>
   )

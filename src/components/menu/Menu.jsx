@@ -47,7 +47,7 @@ class Menu extends React.Component {
   render() {
     const body = (
       <React.Fragment>
-        <div c-0plassName="ServicesTitle">
+        <div className="ServicesTitle">
           <h4 onClick={this.handleWater}>Water</h4>
           <h4 onClick={this.handleGround}>Ground</h4>
           <h4 onClick={this.handleOther}>Others</h4>

@@ -1,8 +1,8 @@
 @import '../../shared/css/sizes.css';
 
 .active-menu {
-  color: var(--secondary-text-color);
-  border-bottom: 1px solid var(--secondary-color-jan);
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
   padding-bottom: 1%;
 }
 

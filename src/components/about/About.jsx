@@ -25,7 +25,7 @@ var body = (
 function About() {
   return (
     <React.Fragment>
-      <Section title="About" body={body} />
+      <Section id="about" title="About" body={body} />
     </React.Fragment>
   )
 }

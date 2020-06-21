@@ -7,3 +7,7 @@
   height: 100%;
   overflow: auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}

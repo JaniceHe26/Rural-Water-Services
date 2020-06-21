@@ -14,7 +14,7 @@ class Menu extends React.Component {
     };
 
     this.services = {
-      water: [["janice","janice","janice"], ["dom","dom","dom"]],
+      water: [["Residental Turnovers","Commerial Buildings","Services and Repairs", "Routinue Preventation and Check Ups"], ["Emergency Services","Water Leak","New Installation"]],
       ground: [["he", "he", "he"], ["pitts", "pitts"]],
       other: [["a","b","c"],["d"],["e","f"]],
     };

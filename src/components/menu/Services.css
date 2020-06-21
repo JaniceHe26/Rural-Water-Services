@@ -3,3 +3,14 @@
   justify-content: space-between;
   flex-direction: row;
 }
+
+.ServicesName {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.ListItems {
+  font-size: var(--size-24);
+  list-style: none;
+}

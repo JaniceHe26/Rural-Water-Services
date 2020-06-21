@@ -6,14 +6,14 @@
   --primary-color: #ffffff;
   --primary-color-dark: #29434e;
   --primary-color-light: #819ca9;
-  --secondary-color: #e0e0e0;
+  /* --secondary-color: #e0e0e0; */
   --secondary-color-dark: #aeaeae;
   --secondary-color-light: #ffffff;
-  --secondary-color-jan:  #1a73e8;
+  --secondary-color:  #1a73e8;
+  
 
   /* Text colors. */
   /* --primary-text-color: #ffffff; */
-  /* --primary-text-color: #4ea993; */
   /* --secondary-text-color: #000000; */
   --primary-text-color:#000000;
   --secondary-text-color:#1a73e8;

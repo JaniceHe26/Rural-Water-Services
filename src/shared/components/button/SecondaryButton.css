@@ -2,10 +2,12 @@
 
 #secondaryButton.Button {
   /* background-color: var(--secondary-color); */
-  background-color: var(--secondary-color-jan);
-  /* border-color: var(--secondary-color); */
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
   /* color: var(--secondary-text-color); */
   color: var(--white-text-color);
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 #secondaryButton.Button:hover,
@@ -13,8 +15,8 @@
 #secondaryButton.Button:active {
   /* background-color: var(--secondary-color-dark); */
   background-color: #69a1ff;
-  /* border-color: var(--secondary-color-dark); */
-  color: var(--primary-text-color);
+  border-color: var(--secondary-color-dark);
+  /* color: var(--primary-text-color); */
   transition: all 0.3s ease-in;
 }
 

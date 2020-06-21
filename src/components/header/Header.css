@@ -14,9 +14,8 @@
 
 .CompanyLogoTitle {
   line-height: var(--size-60);
-  /* color: white; */
-  color: var(--primary-text-color);
-  letter-spacing: 2px;
+  color: var(--white-text-color);
+  letter-spacing: var(--size-2);
   font-family: var(--header-font-family);
   font-weight: 600;
   font-size: var(--size-48);
@@ -25,11 +24,9 @@
 
 .HeaderContainer {
   align-items: center;
-  /* background-color: var(--primary-color-dark); */
-  /*  */
+  background-color: var(--secondary-color);
   border-bottom: 1px solid #ddd;
   justify-content: space-around;
-  /*  */
   color: var(--primary-text-color);
   display: flex;
   flex-direction: row;

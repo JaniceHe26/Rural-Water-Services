@@ -2,6 +2,7 @@
 @import '../../shared/css/theme.css';
 
 .ButtonContainer {
+  font-family: var(--text-font-family);
   display: flex;
   justify-content: space-between;
   width: var(--size-350);
@@ -13,19 +14,24 @@
 
 .CompanyLogoTitle {
   line-height: var(--size-60);
-  color: white;
+  /* color: white; */
+  color: var(--primary-text-color);
+  font-family: var(--header-font-family);
   font-size: var(--size-30);
   margin-left: var(--size-30);
 }
 
 .HeaderContainer {
   align-items: center;
-  background-color: var(--primary-color-dark);
+  /* background-color: var(--primary-color-dark); */
+  /*  */
+  border-bottom: 1px solid #ddd;
+  justify-content: space-around;
+  /*  */
   color: var(--primary-text-color);
   display: flex;
   flex-direction: row;
   height: var(--size-100);
-  justify-content: space-between;
   padding: 0 var(--size-50);
   width: 100%;
 }

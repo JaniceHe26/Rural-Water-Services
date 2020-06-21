@@ -2,7 +2,8 @@
 
 :root {
   /* App colors. */
-  --primary-color: #546e7a;
+  /* --primary-color: #546e7a; */
+  --primary-color: #ffffff;
   --primary-color-dark: #29434e;
   --primary-color-light: #819ca9;
   --secondary-color: #e0e0e0;
@@ -10,6 +11,12 @@
   --secondary-color-light: #ffffff;
 
   /* Text colors. */
-  --primary-text-color: #ffffff;
+  /* --primary-text-color: #ffffff; */
+  /* --primary-text-color: #4ea993; */
+  --primary-text-color:#000000;
   --secondary-text-color: #000000;
+
+  /* Fonts. */
+  --header-font-family: 'Raleway', sans-serif;
+  --text-font-family: 'Lato', sans-serif;
 }

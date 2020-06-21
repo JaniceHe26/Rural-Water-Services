@@ -1,0 +1,63 @@
+[
+  {
+    "service": "water",
+    "name": "Residental Turnovers",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Residental homes service"
+  },
+  {
+    "service": "water",
+    "name": "Commerical Buildings",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Commerial buildings service"
+  },
+  {
+    "service": "water",
+    "name": "New Installation",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Small to large buildings/apartments"
+  },
+  {
+    "service": "water",
+    "name": "Routinue Preventation",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Check ups anytime"
+  },
+  {
+    "service": "water",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "ground",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "ground",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "ground",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "ground",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "ground",
+    "name": "Emergency Services",
+    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+
+]

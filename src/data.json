@@ -31,32 +31,68 @@
   },
   {
     "service": "ground",
-    "name": "Emergency Services",
-    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "name": "Ground Services",
+    "img": "https://static.thenounproject.com/png/36688-200.png",
     "description": "Emergency insurances cover, water leak, 24/7, services and repair"
   },
   {
     "service": "ground",
-    "name": "Emergency Services",
-    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "name": "Drilling",
+    "img": "https://static.thenounproject.com/png/36688-200.png",
     "description": "Emergency insurances cover, water leak, 24/7, services and repair"
   },
   {
     "service": "ground",
-    "name": "Emergency Services",
-    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "name": "Cementing",
+    "img": "https://static.thenounproject.com/png/36688-200.png",
     "description": "Emergency insurances cover, water leak, 24/7, services and repair"
   },
   {
     "service": "ground",
-    "name": "Emergency Services",
-    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "name": "House Work",
+    "img": "https://static.thenounproject.com/png/36688-200.png",
     "description": "Emergency insurances cover, water leak, 24/7, services and repair"
   },
   {
-    "service": "ground",
-    "name": "Emergency Services",
-    "img": "https://cdn1.iconfinder.com/data/icons/construction-3-8/48/146-512.png",
+    "service": "other",
+    "name": "Repair",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "other",
+    "name": "Wood work",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "other",
+    "name": "Bowl making",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },  
+  {
+    "service": "other",
+    "name": "I dont know",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "other",
+    "name": "I ran out of idea",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "other",
+    "name": "what is construction",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
+    "description": "Emergency insurances cover, water leak, 24/7, services and repair"
+  },
+  {
+    "service": "other",
+    "name": "troll truck",
+    "img": "https://image.flaticon.com/icons/svg/2949/2949845.svg",
     "description": "Emergency insurances cover, water leak, 24/7, services and repair"
   },
 

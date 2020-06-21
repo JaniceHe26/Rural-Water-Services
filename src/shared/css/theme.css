@@ -2,14 +2,24 @@
 
 :root {
   /* App colors. */
-  --primary-color: #546e7a;
+  /* --primary-color: #546e7a; */
+  --primary-color: #ffffff;
   --primary-color-dark: #29434e;
   --primary-color-light: #819ca9;
-  --secondary-color: #e0e0e0;
+  /* --secondary-color: #e0e0e0; */
   --secondary-color-dark: #aeaeae;
   --secondary-color-light: #ffffff;
+  --secondary-color:  #1a73e8;
+  
 
   /* Text colors. */
-  --primary-text-color: #ffffff;
-  --secondary-text-color: #000000;
+  /* --primary-text-color: #ffffff; */
+  /* --secondary-text-color: #000000; */
+  --primary-text-color:#000000;
+  --secondary-text-color:#1a73e8;
+  --white-text-color: #ffffff;
+
+  /* Fonts. */
+  --header-font-family: 'Raleway', sans-serif;
+  --text-font-family: 'Lato', sans-serif;
 }

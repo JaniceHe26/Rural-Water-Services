@@ -13,11 +13,11 @@ function Header() {
         <div className="CompanyLogoTitle">Rural Water Services</div>
       </div>
       <div className="ButtonContainer">
-        <SecondaryButton text="Services" />
-        <SecondaryButton text="About" />
-        <SecondaryButton text="History" />
+        <a href="#services"><SecondaryButton text="Services" /></a>
+        <a href="#about"><SecondaryButton text="About" /></a>
+        <a href="#history"><SecondaryButton text="History" /></a>
       </div>
-    </div>
+    </div >
   )
 }
 

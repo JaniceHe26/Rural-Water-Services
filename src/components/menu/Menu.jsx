@@ -4,7 +4,7 @@ import Services from "./Services";
 import "./Menu.css";
 
 class Menu extends React.Component {
-  constructor(){
+  constructor() {
     super();
 
     this.state = {
@@ -14,9 +14,9 @@ class Menu extends React.Component {
     };
 
     this.services = {
-      water: [["Residental Turnovers","Commerial Buildings","Services and Repairs", "Routinue Preventation and Check Ups"], ["Emergency Services","Water Leak","New Installation"]],
+      water: [["Residental Turnovers", "Commerial Buildings", "Services and Repairs", "Routinue Preventation and Check Ups"], ["Emergency Services", "Water Leak", "New Installation"]],
       ground: [["he", "he", "he"], ["pitts", "pitts"]],
-      other: [["a","b","c"],["d"],["e","f"]],
+      other: [["a", "b", "c"], ["d"], ["e", "f"]],
     };
   }
 
@@ -54,24 +54,24 @@ class Menu extends React.Component {
         </div>
 
         {this.state.water && (
-            <Services name="Water Services" lists={this.services.water} />
-          )
-        } 
+          <Services name="Water Services" lists={this.services.water} />
+        )
+        }
 
         {this.state.ground && (
-            <Services name="Ground Services" lists={this.services.ground} />
-          )
+          <Services name="Ground Services" lists={this.services.ground} />
+        )
         }
 
         {this.state.other && (
-            <Services name="Other Services" lists={this.services.other} />
-          )
+          <Services name="Other Services" lists={this.services.other} />
+        )
         }
       </React.Fragment>
     );
     return (
       <React.Fragment>
-        <Section title="Services" body={body} />
+        <Section id="services" title="Services" body={body} />
       </React.Fragment>
     );
   }

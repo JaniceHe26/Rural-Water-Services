@@ -39,7 +39,7 @@ var body = (
 function History() {
   return (
     <React.Fragment>
-      <Section title="History" body={body} />
+      <Section id="history" title="History" body={body} />
     </React.Fragment>
   )
 }

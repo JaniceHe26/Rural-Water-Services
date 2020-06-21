@@ -12,12 +12,6 @@ class Menu extends React.Component {
       ground: false,
       other: false
     };
-
-    this.services = {
-      water: [["Residental Turnovers", "Commerial Buildings", "Services and Repairs", "Routinue Preventation and Check Ups"], ["Emergency Services", "Water Leak", "New Installation"]],
-      ground: [["he", "he", "he"], ["pitts", "pitts"]],
-      other: [["a", "b", "c"], ["d"], ["e", "f"]],
-    };
   }
 
   handleWater = () => {
@@ -54,17 +48,17 @@ class Menu extends React.Component {
         </div>
 
         {this.state.water && (
-          <Services name="Water Services" lists={this.services.water} />
+          <Services name="Water Services" service="water" />
         )
         }
 
         {this.state.ground && (
-          <Services name="Ground Services" lists={this.services.ground} />
+          <Services name="Ground Services" service="ground" />
         )
         }
 
         {this.state.other && (
-          <Services name="Other Services" lists={this.services.other} />
+          <Services name="Other Services" service="other" />
         )
         }
       </React.Fragment>

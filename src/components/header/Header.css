@@ -16,8 +16,10 @@
   line-height: var(--size-60);
   /* color: white; */
   color: var(--primary-text-color);
+  letter-spacing: 2px;
   font-family: var(--header-font-family);
-  font-size: var(--size-30);
+  font-weight: 600;
+  font-size: var(--size-48);
   margin-left: var(--size-30);
 }
 

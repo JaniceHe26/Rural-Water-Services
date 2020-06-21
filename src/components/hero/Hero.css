@@ -1,0 +1,21 @@
+.HeroContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 10% 0 5%;
+}
+
+
+.Slogan {
+  color: var(--secondary-text-color);
+  font-family: var(--header-font-family);
+  font-weight: 600;
+  font-size: var(--size-48);
+  letter-spacing: 3px;
+}
+
+.SloganDetail {
+  font-family: var(--header-font-family);
+  font-weight: 500;
+  font-size: var(--size-28);
+  letter-spacing: 3px;
+}

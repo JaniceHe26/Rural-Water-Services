@@ -1,25 +1,32 @@
 @import '../../css/theme.css';
+@import '../../css/sizes.css';
 
 #secondaryButton.Button {
-  /* background-color: var(--secondary-color); */
   background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-  /* color: var(--secondary-text-color); */
-  color: var(--white-text-color);
+  border: none;
+  box-shadow: unset;
+  color: var(--secondary-text-color);
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: var(--size-2);
+  padding: var(--size-10);
+  position: relative;
+  transition: 0.3s;
 }
 
-#secondaryButton.Button:hover,
-#secondaryButton.Button:focus,
-#secondaryButton.Button:active {
-  /* background-color: var(--secondary-color-dark); */
-  background-color: #69a1ff;
-  border-color: var(--secondary-color-dark);
-  /* color: var(--primary-text-color); */
-  transition: all 0.3s ease-in;
+#secondaryButton.Button::before {
+  border-bottom: 1px solid var(--secondary-text-color);
+  bottom: 0;
+  content: '';
+  left: 0;
+  margin: 0 auto;
+  padding: 0 var(--size-10);
+  position: absolute;
+  right: 0;
+  transition: 0.3s;
+  width: 0;
 }
 
-#secondaryButton.Button:focus {
-  box-shadow: 0 0 0 0.2rem var(--secondary-color-light);
+#secondaryButton.Button:hover::before {
+  padding: 0;
+  width: 100%;
 }

@@ -4,11 +4,11 @@
   /* App colors. */
   /* --primary-color: #546e7a; */
   --primary-color: #ffffff;
-  --primary-color-dark: #29434e;
-  --primary-color-light: #819ca9;
+  --primary-color-dark: #cccccc;
+  --primary-color-light: #ffffff;
   /* --secondary-color: #e0e0e0; */
-  --secondary-color-dark: #aeaeae;
-  --secondary-color-light: #ffffff;
+  --secondary-color-dark: #0049b5;
+  --secondary-color-light: #69a1ff;
   --secondary-color:  #1a73e8;
   
 
@@ -16,7 +16,7 @@
   /* --primary-text-color: #ffffff; */
   /* --secondary-text-color: #000000; */
   --primary-text-color:#000000;
-  --secondary-text-color:#1a73e8;
+  --secondary-text-color:#ffffff;
   --white-text-color: #ffffff;
 
   /* Fonts. */

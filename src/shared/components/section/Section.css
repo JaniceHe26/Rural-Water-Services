@@ -11,7 +11,8 @@
 .SectionContainer {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--size-48)
+  margin-bottom: var(--size-48);
+  margin-top: var(--size-48);
 }
 
 .Title {

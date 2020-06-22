@@ -4,6 +4,18 @@
   flex-direction: row;
 }
 
+.Services-Container {
+  display: grid;
+  justify-content: center;
+
+}
+
+.ServiceImage {
+  width: var(--size-80);
+  height: var(--size-80);
+  margin: 0 auto;
+}
+
 .ServicesName {
   font-weight: 600;
   text-align: center;

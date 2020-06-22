@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Wireframes
+[Figma wireframes] (https://www.figma.com/file/pDkl494sgahxiAJIm3FHlO/lo-fi-wf-rural-water-services?node-id=0%3A1)

@@ -18,9 +18,11 @@ class Services extends React.Component {
               return (<> </>)
             }
             return (
-              <div key={service.service}>
+              <div key={service.name}>
+                <div className="ImageContainer">
                 <img className="ServiceImage"src={service.img} alt={service.name} />
-                <h3>{service.name}</h3>
+                </div>
+                <h3 className="ServicesName">{service.name}</h3>
                 <p>{service.description}</p>
               </div>
             );

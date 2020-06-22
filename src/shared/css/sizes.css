@@ -16,5 +16,8 @@
   --size-60: calc(60rem / 16);
   --size-80: calc(80rem / 16);
   --size-100: calc(100rem / 16);
+  --size-200: calc(200rem / 16);
   --size-350: calc(350rem / 16);
+  --size-400: calc(400rem / 16);
+  --size-650: calc(650rem / 16);
 }

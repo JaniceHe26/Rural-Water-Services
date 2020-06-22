@@ -1,8 +1,10 @@
 @import '../../shared/css/sizes.css';
 
 .active-menu {
-  color: var(--secondary-color);
   border-bottom: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: var(--size-30);
+  font-weight: 600;
   padding-bottom: 1%;
 }
 

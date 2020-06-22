@@ -4,6 +4,21 @@
   flex-direction: row;
 }
 
+.Services-Container {
+  align-self: center;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-self: center;
+}
+
+.ServiceImage {
+  width: var(--size-80);
+  height: var(--size-80);
+  margin: 0 auto;
+}
+
 .ServicesName {
   font-weight: 600;
   text-align: center;

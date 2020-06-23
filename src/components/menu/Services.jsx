@@ -4,21 +4,16 @@ import './Services.css';
 
 
 class Services extends React.Component {
-  state = {
-    services: data
-  };
-
   render() {
-    const { services } = this.state; 
     return (
       <React.Fragment>
         <div className="Services-Container">
-          {services.map(service => {
+          {data.map(service => {
             if (service.service !== this.props.service) {
               return (<> </>)
             }
             return (
-              <div key={service.name}>
+              <div key={service.service}>
                 <div className="ImageContainer">
                 <img className="ServiceImage"src={service.img} alt={service.name} />
                 </div>

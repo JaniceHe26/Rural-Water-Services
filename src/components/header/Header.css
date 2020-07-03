@@ -1,7 +1,7 @@
 @import '../../shared/css/sizes.css';
 @import '../../shared/css/theme.css';
 
-.ButtonContainer {
+.ItemList {
   font-family: var(--text-font-family);
   display: flex;
   justify-content: space-between;
@@ -44,3 +44,19 @@
   height: var(--size-60);
   width: var(--size-80);
 }
+
+.DropdownMenu {
+  display: none;
+}
+
+@media screen 
+  and (max-width: 450px)
+  and (max-height: 850px) {
+    .ItemList {
+      display: none;
+    }
+
+    .DropdownMenu {
+      display: unset;
+    }
+  }

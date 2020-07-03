@@ -1,7 +1,26 @@
 import SecondaryButton from "../../shared/components/button/SecondaryButton";
 import Logo from "../../shared/images/blue-circle.png";
+import DropdownMenu from "../../shared/components/dropdownmenu/DropdownMenu";
 import React from 'react';
 import './Header.css';
+
+const sections = [
+  {
+    id: 0,
+    text: "Services",
+    link: "#services",
+  },
+  {
+    id: 1,
+    text: "About",
+    link: "#about",
+  },
+  {
+    id: 2,
+    text: "History",
+    link: "#history",
+  },
+];
 
 function Header() {
   return (
@@ -12,10 +31,15 @@ function Header() {
         </div>
         <div className="CompanyLogoTitle">Rural Water Services</div>
       </div>
-      <div className="ButtonContainer">
-        <a href="#services"><SecondaryButton text="Services" /></a>
-        <a href="#about"><SecondaryButton text="About" /></a>
-        <a href="#history"><SecondaryButton text="History" /></a>
+      <div className="ItemList">
+        {sections.map((section) => (
+          <>
+            <a href={`#${section.link}`}><SecondaryButton text={section.text} /></a>
+          </>
+        ))}
+      </div>
+      <div className="DropdownMenu">
+        <DropdownMenu list={sections} />
       </div>
     </div >
   )

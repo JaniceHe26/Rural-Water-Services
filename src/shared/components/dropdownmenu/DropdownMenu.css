@@ -1,0 +1,38 @@
+@import '../../css/theme.css';
+@import '../../css/sizes.css';
+
+.DropdownMenuWrapper {
+  position: relative;
+}
+
+.DropdownMenuButton {
+  color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.DropdownMenuList {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  overflow-y: scroll;
+  max-height: var(--size-200);
+  border: 1px solid var(--secondary-color);
+  border-top: none;
+  box-shadow: 0 2px 5px -1px var(--secondary-color-light);
+  background-color: var(--secondary-color);
+  list-style-type: none;
+  padding: 0 5px;
+}
+
+.DropdownMenuListItem {
+  color: var(--primary-color);
+  line-height: var(--size-30);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

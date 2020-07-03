@@ -1,4 +1,5 @@
 import React from 'react';
+import FontAwesome from '../../shared/components/fontawesome/FontAwesome';
 import './Footer.css';
 
 function Footer() {
@@ -6,9 +7,9 @@ function Footer() {
     <React.Fragment>
       <div className="FooterContainer">
         <div className="Text">Rural Water Services</div>
-        <div className="Text"><i class="fa fa-envelope" aria-hidden="true"></i>Email: ruralwater6@gmail.com</div>
-        <div className="Text">Phone: (913)238-0876</div>
-        <div className="Text">Location: Wellsville, Kansas</div>
+        <div className="Text"><FontAwesome name="envelope" /> ruralwater6@gmail.com</div>
+        <div className="Text"><FontAwesome name="phone" flip="horizontal" /> (913)238-0876</div>
+        <div className="Text"><FontAwesome name="map-marker" /> Wellsville, Kansas</div>
       </div>
     </React.Fragment>
   );

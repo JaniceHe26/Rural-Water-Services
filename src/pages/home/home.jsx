@@ -5,7 +5,7 @@ import Footer from '../../common/components/footer/Footer';
 import Header from '../../common/components/header/Header';
 import Hero from './components/hero/Hero';
 import History from './components/history/History';
-import Menu from '../../common/components/menu/Menu';
+import Menu from './components/menu/Menu';
 import './home.css';
 
 function Home() {

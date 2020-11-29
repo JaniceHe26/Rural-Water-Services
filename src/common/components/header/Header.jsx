@@ -1,4 +1,4 @@
-import SecondaryButton from "../../../shared/components/button/SecondaryButton";
+import SecondaryButton from "../button/SecondaryButton";
 import Logo from "../../../shared/images/blue-circle.png";
 import DropdownMenu from "../../../shared/components/dropdownmenu/DropdownMenu";
 import React from 'react';
@@ -34,7 +34,7 @@ function Header() {
       <div className="ItemList">
         {sections.map((section) => (
           <>
-            <a href={`#${section.link}`}><SecondaryButton text={section.text} /></a>
+            <a href={`${section.link}`}><SecondaryButton text={section.text} /></a>
           </>
         ))}
       </div>

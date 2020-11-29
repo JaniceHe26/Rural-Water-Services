@@ -1,7 +1,7 @@
 // History Component.
 import React from 'react';
-import Divider from '../../shared/components/divider/Divider';
-import Section from '../../shared/components/section/Section';
+import Divider from '../../../../common/components/divider/Divider';
+import Section from '../../../../common/components/section/Section';
 import './History.css';
 
 var body = (

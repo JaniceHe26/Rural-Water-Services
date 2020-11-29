@@ -1,5 +1,5 @@
 import React from 'react';
-import Section from '../../shared/components/section/Section';
+import Section from '../../../../common/components/section/Section';
 import './About.css';
 
 var body = (

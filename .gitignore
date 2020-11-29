@@ -11,6 +11,9 @@
 # production
 /build
 
+# docker
+Dockerfile
+
 # misc
 .DS_Store
 .env.local

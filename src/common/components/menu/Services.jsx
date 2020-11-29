@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../data.json";
+import data from "../../../data.json";
 import './Services.css';
 
 
@@ -15,13 +15,13 @@ class Services extends React.Component {
             return (
               <div key={service.service}>
                 <div className="ImageContainer">
-                <img className="ServiceImage"src={service.img} alt={service.name} />
+                  <img className="ServiceImage" src={service.img} alt={service.name} />
                 </div>
                 <h3 className="ServicesName">{service.name}</h3>
                 <p>{service.description}</p>
               </div>
             );
-        })}
+          })}
         </div>
       </React.Fragment>
     )

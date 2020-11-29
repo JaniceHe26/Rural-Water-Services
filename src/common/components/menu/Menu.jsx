@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../shared/components/section/Section";
+import Section from "../../../shared/components/section/Section";
 import Services from "./Services";
 import "./Menu.css";
 

@@ -1,5 +1,5 @@
-@import '../../shared/css/sizes.css';
-@import '../../shared/css/theme.css';
+@import '../../../shared/css/sizes.css';
+@import '../../../shared/css/theme.css';
 
 .FooterContainer {
   align-items: center;

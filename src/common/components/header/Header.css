@@ -1,5 +1,5 @@
-@import '../../shared/css/sizes.css';
-@import '../../shared/css/theme.css';
+@import '../../../shared/css/sizes.css';
+@import '../../../shared/css/theme.css';
 
 .ItemList {
   font-family: var(--text-font-family);

@@ -4,7 +4,8 @@ import React from 'react';
  * A wrapper for the Font Awesome icons.
  * Props = {
  *   name - Name of icon.
- *   size? - Optional: size of icon.
+ *   size? - Optional: Size of icon.
+ *   flip? - Optional: Flip the icon.
  * }
  */
 class FontAwesome extends React.Component {

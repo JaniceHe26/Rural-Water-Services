@@ -1,5 +1,7 @@
-import SecondaryButton from "../../../../common/components/button/SecondaryButton";
 import React from "react";
+
+import SecondaryButton from "../../../../common/components/button/SecondaryButton";
+
 import "./Hero.css";
 
 function Hero() {

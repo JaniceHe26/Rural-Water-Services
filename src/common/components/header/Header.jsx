@@ -1,6 +1,6 @@
 import SecondaryButton from "../button/SecondaryButton";
-import Logo from "../../../shared/images/blue-circle.png";
-import DropdownMenu from "../../../shared/components/dropdownmenu/DropdownMenu";
+import Logo from "../../../common/images/blue-circle.png";
+import DropdownMenu from "../../../common/components/dropdownmenu/DropdownMenu";
 import React from 'react';
 import './Header.css';
 

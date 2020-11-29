@@ -1,4 +1,4 @@
-@import '../../../shared/css/sizes.css';
+@import '../../../common/css/sizes.css';
 
 .active-menu {
   border-bottom: 1px solid var(--secondary-color);

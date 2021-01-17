@@ -1,5 +1,5 @@
 import SecondaryButton from "../button/SecondaryButton";
-import Logo from "../../../common/images/blue-circle.png";
+import Logo from "../../images/blue-circle.png";
 import DropdownMenu from "../dropdownmenu/DropdownMenu";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';

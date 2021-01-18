@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <body className="BodyContent">
+      <div className="BodyContent">
         <Hero />
         <Divider />
         <Menu />
@@ -20,7 +20,7 @@ function Home() {
         <About />
         <Divider />
         <History />
-      </body>
+      </div>
       <footer>
         <Footer />
       </footer>

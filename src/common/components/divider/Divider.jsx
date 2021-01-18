@@ -1,9 +1,10 @@
 import React from "react";
-import "./Divider.css"
+import "./Divider.css";
 
-function Divider() {
-  return(
-    <div className="Divider" />
+function Divider(props) {
+  const classes = props.className ? `Divider ${props.className}` : 'Divider';
+  return (
+    <div className={classes} />
   )
 }
 

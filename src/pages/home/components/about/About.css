@@ -2,14 +2,14 @@
   margin-top: 25px;
 }
 
-.imageTextContainer {
+.aboutTextContainer {
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: center;
 }
 
-.figureImage {
+.aboutFigureImage {
   display: block;
   margin-left: auto;
   margin-right: auto;

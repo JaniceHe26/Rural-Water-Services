@@ -13,16 +13,16 @@ var body = (
           <Figure>
             <Figure.Image
               src={Purple}
-              alt="Rural Water Services"
-              title="Rural Water"
-              className="figureImage" fluid />
+              alt="RWS family owners photo"
+              title="Rural Water family owners"
+              className="aboutFigureImage" fluid />
             <Figure.Caption>
               Business owner Russ Pitts (left) and his father, the founder of the company, Larry Pitts.
             </Figure.Caption>
           </Figure>
         </Col>
         <Col md={6}>
-          <div class="imageTextContainer">
+          <div className="aboutTextContainer">
             <p>
               Sed ut perspiciatis unde omnis iste
               natus error sit voluptatem accusantium doloremque laudantium,
